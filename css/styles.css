@@ -1,5 +1,210 @@
 @import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&display=swap');
 
-body{
+:root {
+    --brightRed: hsl(12, 88%, 59%);
+    --darkBlue: hsl(228, 39%, 23%);
+    --darkGrayishBlue: hsl(227, 12%, 61%);
+    --veryDarkBlue: hsl(233, 12%, 13%);
+    --veryPaleRed: hsl(13, 100%, 96%);
+    --verylightgray: hsl(0, 0%, 98%);
+  }
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 1rem;
     font-family: "Be Vietnam Pro";
 }
+
+body {
+    margin-top: 2rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+
+
+.btn-get-started {
+    background-color: var(--brightRed);
+    color: var(--verylightgray);
+    border-radius: 35px;
+    padding: 0.75rem 1.5rem;
+    font-size: 0.7rem;
+    font-weight: bold;
+}
+
+header .btn-get-started, ul {
+    display: none;
+}
+
+.section-one {
+    display: flex;
+    flex-direction: column;
+}
+
+.section-one img {
+     width: 100%;
+     margin: auto;
+     display: block;
+}
+
+h2.section-title {
+   color: var(--darkBlue);
+   font-size: 2rem;
+   text-align: center;
+   margin-top: 0.5rem;
+   margin-bottom: 0.5rem;
+}
+
+.section-one .section-content {
+    color: var(--darkGrayishBlue);
+    text-align: center;
+    font-size: 0.9rem;
+    line-height: 1.5rem;
+}
+
+.section-one .btn-get-started {
+    width: fit-content;
+    align-self: center;
+    margin-top: 1.5rem;
+    margin-bottom: 5rem;
+}
+
+
+
+
+
+
+
+
+
+.section-two-grid {
+    display: grid;
+    gap: 1.5rem;
+    grid-template-columns:  1fr;
+}
+
+h3.section-title {
+    color: var(--darkBlue);
+    font-size: 1.6rem;
+    text-align: center;
+    line-height: 2.5rem;
+    margin-bottom: 0.5rem;
+}
+
+
+.section-two-grid .section-content-primary {
+    color: var(--darkGrayishBlue);
+    text-align: center;
+    font-size: 0.8rem;
+    line-height: 1.5rem;
+}
+
+
+.argument-number {
+    display: flex;
+    width: 60px;
+    background-color: var(--brightRed);
+    border-radius: 35px;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    position: absolute;
+    padding: 0.4rem 1.2rem;
+}
+
+.section-two-grid .section-content {
+    color: var(--darkGrayishBlue);
+    font-size: 0.7rem;
+    line-height: 1.5rem;
+}
+
+h4.argument-title {
+    color: var(--darkBlue);
+    font-size: 1rem;
+    margin-bottom: 1rem;
+    background: linear-gradient(to right, white, hsla(12, 88%, 59%, 0.151));
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* nav ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    justify-content: space-around;
+    font-weight: 500;
+} */
+
+/* nav a {
+    display: inline-block;
+    padding: 0.5em;
+    text-decoration: none;
+}
+
+nav a:hover,
+nav a:focus {
+    text-decoration: underline;
+} */
+
+/* @media (max-width: 35em) {
+    nav ul {
+
+        position: fixed;
+        inset: 0 0 0 30%;
+        flex-direction: column;
+        background: steelblue;
+        opacity: 80%;
+        justify-content: unset;
+        padding: 10rem 2em;
+    }
+} */
